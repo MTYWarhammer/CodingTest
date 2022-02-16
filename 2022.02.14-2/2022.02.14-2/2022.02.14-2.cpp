@@ -27,6 +27,7 @@ int main(void)
 {
     //EXAMPLE 1
     {
+        cout << "EXAMPLE 1" << endl;
         int iArray[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
         int* iIter = nullptr;
 
@@ -43,19 +44,21 @@ int main(void)
 
     //EXAMPLE 2
     //{
-    //    list<int> NumberList = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+    //      cout << "EXAMPLE 2" << endl;
+    //      list<int> NumberList = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
     //
-    //    for (list<int>::iterator iter = NumberList.begin();
-    //        iter != NumberList.end(); ++iter)
-    //    {
-    //        cout << *iter << endl;
-    //    }
-    //    cout << endl;
+    //      for (list<int>::iterator iter = NumberList.begin();
+    //          iter != NumberList.end(); ++iter)
+    //      {
+    //          cout << *iter << endl;
+    //      }
+    //      cout << endl;
     //}
 
 
     //EXAMPLE 3
     {
+        cout << "EXAMPLE 3" << endl;
         int iArray[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, NULL };
 
         for (int* iIter = iArray; (*iIter) != NULL; ++iIter)
@@ -67,8 +70,6 @@ int main(void)
     //EXAMPLE 4
     {
         cout << "EXAMPLE 4" << endl;
-        
-
         pList->Value = 0;
         pList->Next = nullptr;
 
@@ -92,11 +93,6 @@ int main(void)
         int i = 10;
         int j = 20;
 
-        //내가쓴거
-        //int temp = i;
-        //i = j;
-        //j = temp;
-
         //답: int형만가능
         i ^= j;
         j ^= i;
@@ -106,7 +102,7 @@ int main(void)
         cout << "j: " << j << endl;
         cout << endl;
     }
-
+    
     return 0;
 }
 
