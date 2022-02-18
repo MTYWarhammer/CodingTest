@@ -2,16 +2,17 @@
 #include "Object.h"
 #include "PlayerController.h"
 
-class Scene : public Object
+class Object;
+class Scene 
 {
 public:
-	PlayerController* player;
+	Object* player; 
 
 	void Start();
 	void Update();
 	void LateUpdate();
 	void Render();
-	void Destory();
+	void Destory(); 
 	Scene();
 	~Scene();
 private:
