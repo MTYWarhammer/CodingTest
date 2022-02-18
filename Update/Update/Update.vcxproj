@@ -146,6 +146,7 @@
     <ClCompile Include="Scene.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Headers.h" />
     <ClInclude Include="MainUpdate.h" />
     <ClInclude Include="Object.h" />
     <ClInclude Include="PlayerController.h" />

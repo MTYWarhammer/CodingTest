@@ -1,5 +1,7 @@
 #pragma once
 #include "Object.h"
+#include "PlayerController.h"
+
 class Scene : public Object
 {
 public:
